@@ -1,3 +1,29 @@
 Marcos Zalazar
 Rubén López
 Tomas Alejandro Pérez Ponisio
+
+e- realizar un listado, paso a paso, de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos,
+
+Interacción 2(FORK):
+1. BETA crea el repositorio llamado : “TP_SO_i2_Equipo” con readme y un archivo llamado fork.txt
+> Beta crea el repositorio en su github, crea el archivo fork.txt, git add ., git commit -m “mensaje”, git push
+
+2. GAMMA hace FORK del repositorio, descarga su repositorio EN FORMA LOCAL, modifica el archivo agregando su nombre y apellido , la IP de la máquina y la hora, y hace el push a su repositorio.
+> Gamma hace fork desde github, git clone para tenerlo local, modifica el archivo, git add, git commit, git push
+
+3. ALFA hace FORK del repositorio de BETA, descarga su repositorio EN FORMA LOCAL, modifica el archivo agregando su nombre y apellido , la iP de la máquina y la hora, y hace el push a su repositorio.
+> Alfa hace fork desde github, git clone para tenerlo local, modifica el archivo, git add, git commit, git push
+
+4. BETA, descarga su repositorio EN FORMA LOCAL,crea en el repositorio un archivo llamado NuevoDato.txt.
+> Beta hace git clone del repositorio original, crea el archivo NuevoDato.txt y hace un push para subir sus cambios.
+
+5. GAMMA y ALFA deberían lograr actualizar su repositorio al estado que lo dejó BETA
+> Alfa hizo fetch and merge desde github y después git pull
+> Gamma hizo un pull request
+
+6. BETA crea dentro del archivo “respuesta_I2_EquipoX” apellido y nombre de los alumnos que participaron de la interacción
+> Beta completa los datos de los alumnos en el archivo txt, hace git add, git commit y git push
+
+7. Finalmente entre todos los integrantes contestan estas preguntas con sus palabras
+> Cada integrante contesta las preguntas en el archivo y hace pull request para que beta acepte.Beta analiza los pull request recibidos, soluciona conflictos y deja en el archivo las respuestas correspondientes a cada uno.
