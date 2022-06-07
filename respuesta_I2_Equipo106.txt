@@ -1,3 +1,10 @@
 Marcos Zalazar
 Rubén López
 Tomas Alejandro Pérez Ponisio
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+	Mediante el pull resquest.
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+	Si, realizo con exito.
+	
