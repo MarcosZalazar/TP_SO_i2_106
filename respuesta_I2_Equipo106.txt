@@ -2,9 +2,10 @@ Marcos Zalazar
 Rubén López
 Tomas Alejandro Pérez Ponisio
 
-e- realizar un listado, paso a paso, de los comando necesarios para resolver este TP por
-orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos,
-
+c- No, GAMMA no puede actualizar su fork al estado del fork de ALFA; son repositorios independientes que pueden interactuar con el upstream (repositorio original)
+d- No, no se pierden. Al sincronizarlos, se evaluan las versiones y podrían aparecer conflictos si se edita el mismo tramo de código. Pero se pueden analizar estos
+   conflictos, y si lo deseamos, mantener nuestros cambios en lugar de los del repositorio original.
+e- 
 Interacción 2(FORK):
 1. BETA crea el repositorio llamado : “TP_SO_i2_Equipo” con readme y un archivo llamado fork.txt
 > Beta crea el repositorio en su github, crea el archivo fork.txt, git add ., git commit -m “mensaje”, git push
@@ -27,3 +28,4 @@ Interacción 2(FORK):
 
 7. Finalmente entre todos los integrantes contestan estas preguntas con sus palabras
 > Cada integrante contesta las preguntas en el archivo y hace pull request para que beta acepte.Beta analiza los pull request recibidos, soluciona conflictos y deja en el archivo las respuestas correspondientes a cada uno.
+
