@@ -1,3 +1,7 @@
 Marcos Zalazar
 Rubén López
 Tomas Alejandro Pérez Ponisio
+
+c- No, GAMMA no puede actualizar su fork al estado del fork de ALFA; son repositorios independientes que pueden interactuar con el upstream (repositorio original)
+d- No, no se pierden. Al sincronizarlos, se evaluan las versiones y podrían aparecer conflictos si se edita el mismo tramo de código. Pero se pueden analizar estos
+   conflictos, y si lo deseamos, mantener nuestros cambios en lugar de los del repositorio original.
