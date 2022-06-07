@@ -1,3 +1,0 @@
-gamma: ruben apellido
-Ip:192.168.0.13
-hora: 18:02
